@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+td{
+    background-color: #02021a;
+    height: 300px;
+    width: 200px;
+}
+
+.art{
+    margin: auto;
+}
+
+#box1{
+    background-color: #ffd6ff;
+}
+#box2{
+    background-color: #ff99ff;
+}
+#box3{
+    background-color: #ff66ff;
+}
+#box4{
+    background-color: #ff33ff;
+}
+#box5{
+    background-color: #ff00ff;
+}
