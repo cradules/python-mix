@@ -1,0 +1,17 @@
+.firstDiv{
+    color: yellowgreen;
+}
+.secondDiv{
+    color: blue;
+}
+#signalled{
+    color: red;
+    text-decoration: line-through;
+}
+
+body {
+  font-family: Roboto, Noto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4286;
+  background-color: #fafafa;
+}

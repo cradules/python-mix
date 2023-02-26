@@ -1,0 +1,27 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: #fff;
+    border: 1px solid aqua;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+
+p{
+    color: yellowgreen;
+    margin-bottom: 20px;
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+    background-color: #f1f1f1;
+}
