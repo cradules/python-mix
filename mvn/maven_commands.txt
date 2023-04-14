@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=org.jbpm.jbpm3 -DartifactId=jbpm-jpdl -Dversion=3.2.6.SP1 -Dpackaging=jar -Dfile=maven-dependencies/jbpm-jpdl-3.2.6.SP1.jar -DpomFile=maven-dependencies/jbpm-jpdl-3.2.6.SP1.pom
