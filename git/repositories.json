@@ -1,0 +1,17 @@
+{
+  "repositories": {
+        "repository-name": {
+          "name": "repository-name",
+          "url": "repository-url",
+          "cmd": "mvn clean install -DskipTests",
+          "branches": [
+            "branch-name01",
+            "branch-name02"
+          ],
+          "exceptions": [
+            "exception-name01",
+            "exception-name02"
+          ]
+      }
+  }
+}
