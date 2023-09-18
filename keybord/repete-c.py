@@ -1,6 +1,9 @@
 import time
+
+import win32api
+import win32con
+import win32gui
 from pynput import keyboard
-import win32gui, win32api, win32con
 
 caps_lock_on = False
 
@@ -45,5 +48,6 @@ listener = keyboard.Listener(on_press=on_key_change)
 listener.start()
 
 print(
-    "Keyboard listener is active. Toggle CAPS LOCK to start/stop sending the 'A' key to the 'Aion Client (64bit)' window.")
+    "Keyboard listener is active. Toggle CAPS LOCK to start/stop sending the 'A' key to the 'Aion Client (64bit)' "
+    "window.")
 check_capslock_state()
