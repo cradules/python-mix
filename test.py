@@ -1,12 +1,25 @@
 class Solution:
-    def lexi_numbers_f(self, n):
-        # Generate a list of numbers from 1 to n, convert to strings, and sort lexicographically
-        return sorted(range(1, n + 1), key=str)
+    def lexicalOrder(self, n: int):
+        result = []
+
+        def dfs(curr):
+            if curr > n:
+                return
+            result.append(curr)
+            for i in range(10):
+                next_num = curr * 10 + i
+                if next_num > n:
+                    break
+                dfs(next_num)
+
+        for i in range(1, 10):
+            dfs(i)
+
+        return result
 
 
 # Sample usage
 solution = Solution()
-n = 30
-sorted_lexi_numbers = solution.lexi_numbers(n)
-
-print("Lexicographical order from 1 to", n, ":", sorted_lexi_numbers)
+n = 13
+output = solution.lexicalOrder(n)
+print(output)
